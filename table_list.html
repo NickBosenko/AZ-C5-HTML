@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML Lists and Tables</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="icon" href="fav_icon.png" type="image/png"> 
+        <style>
+            table {
+                border-collapse: collapse;
+                width: auto;
+            }
+        
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: center;
+            }
+
+            caption {
+                font-weight: bold; 
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption><b>TIME TABLE</b><br><br></caption>
+            <thead>
+                <tr>
+                    <th rowspan="6" style="text-align: center;">Hours</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9-10am</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Arts</td>
+                </tr>
+                <tr>
+                    <td>10-12pm</td>
+                    <td>Social</td>
+                    <td>History</td>
+                    <td>English</td>
+                    <td>Social</td>
+                    <td>Sports</td>
+                </tr>
+                <tr>
+                    <td>12-1pm</td>
+                    <td colspan="5" style="text-align: center;">Lunch time</td>
+                </tr>
+                <tr>
+                    <td>1-2pm</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td rowspan="2" style="text-align: center;">Project</td>
+                </tr>
+                <tr>
+                    <td>2-3pm</td>
+                    <td>Social</td>
+                    <td>History</td>
+                    <td>English</td>
+                    <td>Social</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+        <h3>Project Topics</h3>
+        <ul>
+            <li>Urban Gardening Innovations</li>
+            <li>Virtual Reality in Education</li>
+            <li>Community Health Initiatives</li>
+            <li>Sustainable City Planning</li>
+        </ul>
+
+        <h3>History Topics</h3>
+        <ol type="a">
+            <li>The Industrial Revolution and Its Impact</li>
+            <li>The Fall of the Berlin Wall</li>
+            <li>The Age of Exploration and Discovery</li>
+        </ol>
+    </body>
+</html>
+
+
